@@ -15,6 +15,7 @@ import numpy as np
 
 np.seterr(divide="ignore", invalid="ignore")
 
+# foo
 
 def crop(asset: pystac.Asset, bbox, epsg):
     """_summary_
